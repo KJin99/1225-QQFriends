@@ -15,6 +15,11 @@
 		0D9BF3B91C2CE00D00D7BFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9BF3B71C2CE00D00D7BFE8 /* LaunchScreen.storyboard */; };
 		0D9BF3C41C2CE00D00D7BFE8 /* _225_QQFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3C31C2CE00D00D7BFE8 /* _225_QQFriendsTests.m */; };
 		0D9BF3CF1C2CE00D00D7BFE8 /* _225_QQFriendsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3CE1C2CE00D00D7BFE8 /* _225_QQFriendsUITests.m */; };
+		0D9BF3E01C2CE0CC00D7BFE8 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D9BF3DF1C2CE0CC00D7BFE8 /* friends.plist */; };
+		0D9BF3E41C2CE11C00D7BFE8 /* KJFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3E31C2CE11C00D7BFE8 /* KJFriend.m */; };
+		0D9BF3E71C2CE1F900D7BFE8 /* KJFriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3E61C2CE1F900D7BFE8 /* KJFriendGroup.m */; };
+		0D9BF3ED1C2CEDE200D7BFE8 /* KJHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3EC1C2CEDE200D7BFE8 /* KJHeaderView.m */; };
+		0D9BF3F01C2D1AFA00D7BFE8 /* KJFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BF3EF1C2D1AFA00D7BFE8 /* KJFriendCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		0D9BF3CA1C2CE00D00D7BFE8 /* 1225-QQFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1225-QQFriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9BF3CE1C2CE00D00D7BFE8 /* _225_QQFriendsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _225_QQFriendsUITests.m; sourceTree = "<group>"; };
 		0D9BF3D01C2CE00D00D7BFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9BF3DF1C2CE0CC00D7BFE8 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = friends.plist; path = ../friends.plist; sourceTree = "<group>"; };
+		0D9BF3E21C2CE11C00D7BFE8 /* KJFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFriend.h; sourceTree = "<group>"; };
+		0D9BF3E31C2CE11C00D7BFE8 /* KJFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFriend.m; sourceTree = "<group>"; };
+		0D9BF3E51C2CE1F900D7BFE8 /* KJFriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFriendGroup.h; sourceTree = "<group>"; };
+		0D9BF3E61C2CE1F900D7BFE8 /* KJFriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFriendGroup.m; sourceTree = "<group>"; };
+		0D9BF3EB1C2CEDE200D7BFE8 /* KJHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHeaderView.h; sourceTree = "<group>"; };
+		0D9BF3EC1C2CEDE200D7BFE8 /* KJHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHeaderView.m; sourceTree = "<group>"; };
+		0D9BF3EE1C2D1AFA00D7BFE8 /* KJFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFriendCell.h; sourceTree = "<group>"; };
+		0D9BF3EF1C2D1AFA00D7BFE8 /* KJFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFriendCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,7 @@
 		0D9BF3A81C2CE00D00D7BFE8 /* 1225-QQFriends */ = {
 			isa = PBXGroup;
 			children = (
-				0D9BF3AC1C2CE00D00D7BFE8 /* AppDelegate.h */,
-				0D9BF3AD1C2CE00D00D7BFE8 /* AppDelegate.m */,
-				0D9BF3AF1C2CE00D00D7BFE8 /* ViewController.h */,
-				0D9BF3B01C2CE00D00D7BFE8 /* ViewController.m */,
-				0D9BF3B21C2CE00D00D7BFE8 /* Main.storyboard */,
-				0D9BF3B51C2CE00D00D7BFE8 /* Assets.xcassets */,
-				0D9BF3B71C2CE00D00D7BFE8 /* LaunchScreen.storyboard */,
-				0D9BF3BA1C2CE00D00D7BFE8 /* Info.plist */,
+				0D9BF3E91C2CE25F00D7BFE8 /* Classes */,
 				0D9BF3A91C2CE00D00D7BFE8 /* Supporting Files */,
 			);
 			path = "1225-QQFriends";
@@ -117,6 +124,11 @@
 		0D9BF3A91C2CE00D00D7BFE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D9BF3B21C2CE00D00D7BFE8 /* Main.storyboard */,
+				0D9BF3B51C2CE00D00D7BFE8 /* Assets.xcassets */,
+				0D9BF3B71C2CE00D00D7BFE8 /* LaunchScreen.storyboard */,
+				0D9BF3BA1C2CE00D00D7BFE8 /* Info.plist */,
+				0D9BF3DF1C2CE0CC00D7BFE8 /* friends.plist */,
 				0D9BF3AA1C2CE00D00D7BFE8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +150,57 @@
 				0D9BF3D01C2CE00D00D7BFE8 /* Info.plist */,
 			);
 			path = "1225-QQFriendsUITests";
+			sourceTree = "<group>";
+		};
+		0D9BF3DD1C2CE02000D7BFE8 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BF3AC1C2CE00D00D7BFE8 /* AppDelegate.h */,
+				0D9BF3AD1C2CE00D00D7BFE8 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0D9BF3DE1C2CE02B00D7BFE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BF3AF1C2CE00D00D7BFE8 /* ViewController.h */,
+				0D9BF3B01C2CE00D00D7BFE8 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D9BF3E11C2CE10900D7BFE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BF3E21C2CE11C00D7BFE8 /* KJFriend.h */,
+				0D9BF3E31C2CE11C00D7BFE8 /* KJFriend.m */,
+				0D9BF3E51C2CE1F900D7BFE8 /* KJFriendGroup.h */,
+				0D9BF3E61C2CE1F900D7BFE8 /* KJFriendGroup.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D9BF3E91C2CE25F00D7BFE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BF3EA1C2CEDBA00D7BFE8 /* Views */,
+				0D9BF3E11C2CE10900D7BFE8 /* Models */,
+				0D9BF3DD1C2CE02000D7BFE8 /* Others */,
+				0D9BF3DE1C2CE02B00D7BFE8 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0D9BF3EA1C2CEDBA00D7BFE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D9BF3EB1C2CEDE200D7BFE8 /* KJHeaderView.h */,
+				0D9BF3EC1C2CEDE200D7BFE8 /* KJHeaderView.m */,
+				0D9BF3EE1C2D1AFA00D7BFE8 /* KJFriendCell.h */,
+				0D9BF3EF1C2D1AFA00D7BFE8 /* KJFriendCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +265,7 @@
 		0D9BF39E1C2CE00D00D7BFE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = khj;
 				TargetAttributes = {
@@ -245,6 +309,7 @@
 			files = (
 				0D9BF3B91C2CE00D00D7BFE8 /* LaunchScreen.storyboard in Resources */,
 				0D9BF3B61C2CE00D00D7BFE8 /* Assets.xcassets in Resources */,
+				0D9BF3E01C2CE0CC00D7BFE8 /* friends.plist in Resources */,
 				0D9BF3B41C2CE00D00D7BFE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +337,11 @@
 			files = (
 				0D9BF3B11C2CE00D00D7BFE8 /* ViewController.m in Sources */,
 				0D9BF3AE1C2CE00D00D7BFE8 /* AppDelegate.m in Sources */,
+				0D9BF3E41C2CE11C00D7BFE8 /* KJFriend.m in Sources */,
 				0D9BF3AB1C2CE00D00D7BFE8 /* main.m in Sources */,
+				0D9BF3ED1C2CEDE200D7BFE8 /* KJHeaderView.m in Sources */,
+				0D9BF3E71C2CE1F900D7BFE8 /* KJFriendGroup.m in Sources */,
+				0D9BF3F01C2D1AFA00D7BFE8 /* KJFriendCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
