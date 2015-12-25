@@ -123,11 +123,14 @@
 
 - (void)imageViewChangeTransform
 {
-    if (self.group.expansion) {
-        self.nameView.imageView.transform = CGAffineTransformMakeRotation(M_PI_2);
-    }else
-    {
-        self.nameView.imageView.transform = CGAffineTransformMakeRotation(0);
-    }
+    [UIView animateWithDuration:0.25 animations:^{
+        if (self.group.expansion) {
+            self.nameView.imageView.transform = CGAffineTransformMakeRotation(M_PI_2);
+        }else
+        {
+            self.nameView.imageView.transform = CGAffineTransformMakeRotation(0);
+        }
+    }];
+    
 }
 @end
